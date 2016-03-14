@@ -87,6 +87,7 @@ var y = function() { return 1+1; };
 
     ``` Type of browser used, Pageviews. Amount of visitors who visit. Amount of times an email was opened ```
     * List some additional information (if any) that could be collected if a ```<script>``` tag is used instead of an ```<img>``` tag.
+    
     ``` Screen Resolution. Plugins used. Website Activity. ```
 
 3. Harder! The following image tag appears somewhere on some webpage. The rest of the page is valid HTML, but otherwise unknown.
