@@ -79,8 +79,7 @@ var y = function() { return 1+1; };
     ```
     * What will happen if the customer’s website is served over HTTPS? How could you modify the tracking pixel to fix that?
 
-    ```From my experience in working with SSL certificates, I’ve found that links that lead to other sites, especially image links from an online source without HTTPS will result in a none secure greyed lock stating that it had some unsecure connections. An answer from http://preview.tinyurl.com/hampv22 suggested that modifying the link itself by omitting the http (//hashtagh-analytics.com/...) portion of the link can fix that issue
-    ```
+    ``` From my experience in working with SSL certificates, I’ve found that links that lead to other sites, especially image links from an online source without HTTPS will result in a none secure greyed lock stating that it had some unsecure connections. An answer from http://preview.tinyurl.com/hampv22 suggested that modifying the link itself by omitting the http (//hashtagh-analytics.com/...) portion of the link can fix that issue ```
     * List some information the tracking company could collect (ex: IP address)
 
     ``` Type of browser used, Pageviews. Amount of visitors who visit. Amount of times an email was opened ```
