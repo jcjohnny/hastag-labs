@@ -7,12 +7,9 @@ Please complete the following questions / exercises. Some of the points are inte
 
 1. What is the difference between HTTP and HTTPS?
 
-    ```The difference lies in the letter S which stands for Secure. Typically, an SSL certificate is needed to maintain an HTTPS secure connection and are usually required for companies accepting online payments operating in e-commerce.
-    ```
+    ```The difference lies in the letter S which stands for Secure. Typically, an SSL certificate is needed to maintain an HTTPS secure connection and are usually required for companies accepting online payments operating in e-commerce.```
 2. What is the difference between HTTP GET and POST?
-    ```
-    HTTP GET requests data from a server. HTTP POST submits data to the server.
-    ```
+    ```HTTP GET requests data from a server. HTTP POST submits data to the server.```
 3. What is the difference between the HTTP 2xx status codes and 4xx status codes?
     ```
     HTTP 2xx status means there’s a successful connection to the server. 4xx status codes means there’s a problem with the user’s connection to the server.
