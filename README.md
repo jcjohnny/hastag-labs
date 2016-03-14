@@ -6,8 +6,8 @@ Please complete the following questions / exercises. Some of the points are inte
 ##### QUESTIONS
 
 1. What is the difference between HTTP and HTTPS?
-    ```
-    The difference lies in the letter S which stands for Secure. Typically, an SSL certificate is needed to maintain an HTTPS secure connection and are usually required for companies accepting online payments operating in e-commerce.
+
+    ```The difference lies in the letter S which stands for Secure. Typically, an SSL certificate is needed to maintain an HTTPS secure connection and are usually required for companies accepting online payments operating in e-commerce.
     ```
 2. What is the difference between HTTP GET and POST?
     ```
@@ -35,7 +35,7 @@ div {background:#fff;}
 /* changes the background color of only one HTML tag with the id name of div.*/
 ```
 ```css
-div {background:#fff;}
+.div {background:#fff;}
 /* changes the background color of all HTML tags with the class name of div.  */
 ```
 
@@ -88,8 +88,8 @@ var y = function() { return 1+1; };
 	<meta http-equiv="Expires" content="0" />
     ```
     * What will happen if the customer’s website is served over HTTPS? How could you modify the tracking pixel to fix that?
-    ```
-    From my experience in working with SSL certificates, I’ve found that links that lead to other sites, especially image links from an online source without HTTPS will result in a none secure greyed lock stating that it had some unsecure connections. An answer from http://preview.tinyurl.com/hampv22 suggested that modifying the link itself by omitting the http (//hashtagh-analytics.com/...) portion of the link can fix that issue
+
+    ```From my experience in working with SSL certificates, I’ve found that links that lead to other sites, especially image links from an online source without HTTPS will result in a none secure greyed lock stating that it had some unsecure connections. An answer from http://preview.tinyurl.com/hampv22 suggested that modifying the link itself by omitting the http (//hashtagh-analytics.com/...) portion of the link can fix that issue
     ```
     * List some information the tracking company could collect (ex: IP address)
     ```
