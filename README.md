@@ -12,10 +12,13 @@ Please complete the following questions / exercises. Some of the points are inte
 
     ``` HTTP GET requests data from a server. HTTP POST submits data to the server.```
 3. What is the difference between the HTTP 2xx status codes and 4xx status codes?
+
     ``` HTTP 2xx status means there’s a successful connection to the server. 4xx status codes means there’s a problem with the user’s connection to the server. ```
 4. What is Ajax (conceptually, what does it do)? Describe a situation where it is useful.
+
     ``` Ajax can make changes to a web page without having to reload the page. It is typically useful when content on page is being changed or updated while the user is viewing a page. Online forms are a situation where Ajax is the most useful – as it can update and inform as a user is typing. Having to submit a form only to be told that it is filled incorrectly is slow and non user-friendly. ```
 5. What is responsive design?
+
     ``` Responsive design is when a website is built for most or all screen sizes to optimize readability and performance. ```
 6. What is the difference between these 3 CSS rules?
 ```css
@@ -101,12 +104,12 @@ Every 2 seconds:
     There is a plugin for Jquery that does this quite well
     https://www.customd.com/articles/13/checking-if-an-element-is-visible-on-screen-using-jquery
     ```
-```javascript
-window.setInterval(function() {
-    if ($(‘#myimage’).visible()){
-        if( window.console ) {
-    	   console.log( “visible” );
+    ```javascript
+    window.setInterval(function() {
+        if ($(‘#myimage’).visible()){
+            if( window.console ) {
+        	   console.log( “visible” );
+            };
         };
-    };
-},2000);
-```
+    },2000);
+    ```
