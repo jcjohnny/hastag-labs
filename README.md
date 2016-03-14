@@ -14,13 +14,9 @@ Please complete the following questions / exercises. Some of the points are inte
 3. What is the difference between the HTTP 2xx status codes and 4xx status codes?
     ``` HTTP 2xx status means there’s a successful connection to the server. 4xx status codes means there’s a problem with the user’s connection to the server. ```
 4. What is Ajax (conceptually, what does it do)? Describe a situation where it is useful.
-    ```
-    Ajax can make changes to a web page without having to reload the page. It is typically useful when content on page is being changed or updated while the user is viewing a page. Online forms are a situation where Ajax is the most useful – as it can update and inform as a user is typing. Having to submit a form only to be told that it is filled incorrectly is slow and non user-friendly.
-    ```
+    ``` Ajax can make changes to a web page without having to reload the page. It is typically useful when content on page is being changed or updated while the user is viewing a page. Online forms are a situation where Ajax is the most useful – as it can update and inform as a user is typing. Having to submit a form only to be told that it is filled incorrectly is slow and non user-friendly. ```
 5. What is responsive design?
-    ```
-    Responsive design is when a website is built for most or all screen sizes to optimize readability and performance.
-    ```
+    ``` Responsive design is when a website is built for most or all screen sizes to optimize readability and performance. ```
 6. What is the difference between these 3 CSS rules?
 ```css
 div {background:#fff;}
@@ -71,13 +67,11 @@ var y = function() { return 1+1; };
 
     As it stands, this pixel has a problem because it will be cached by the browser.
     * Why is caching a problem for the analytics company?
-    ```
-    Data and information gets updated. The tracking pixel can remain un-updated while the sites contents change and its viewer’s behaviors can change.
-    ```
+
+    ``` Data and information gets updated. The tracking pixel can remain un-updated while the sites contents change and its viewer’s behaviors can change. ```
     * How could you prevent browser caching? (use any technique(s) you want)
-    ```
-    There are a lot of answers from http://stackoverflow.com/a/2068407. The most frequented answer that I came across was to use HTML meta tags in the header
-    ```
+
+    ``` There are a lot of answers from http://stackoverflow.com/a/2068407. The most frequented answer that I came across was to use HTML meta tags in the header ```
 	```html
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
 	<meta http-equiv="Pragma" content="no-cache" />
@@ -88,13 +82,10 @@ var y = function() { return 1+1; };
     ```From my experience in working with SSL certificates, I’ve found that links that lead to other sites, especially image links from an online source without HTTPS will result in a none secure greyed lock stating that it had some unsecure connections. An answer from http://preview.tinyurl.com/hampv22 suggested that modifying the link itself by omitting the http (//hashtagh-analytics.com/...) portion of the link can fix that issue
     ```
     * List some information the tracking company could collect (ex: IP address)
-    ```
-    Type of browser used, Pageviews. Amount of visitors who visit. Amount of times an email was opened
-    ```
+
+    ``` Type of browser used, Pageviews. Amount of visitors who visit. Amount of times an email was opened ```
     * List some additional information (if any) that could be collected if a ```<script>``` tag is used instead of an ```<img>``` tag.
-    ```
-    Screen Resolution. Plugins used. Website Activity.
-    ```
+    ``` Screen Resolution. Plugins used. Website Activity. ```
 
 3. Harder! The following image tag appears somewhere on some webpage. The rest of the page is valid HTML, but otherwise unknown.
 
