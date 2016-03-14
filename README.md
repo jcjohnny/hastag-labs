@@ -6,9 +6,10 @@ Please complete the following questions / exercises. Some of the points are inte
 ##### QUESTIONS
 
 1. What is the difference between HTTP and HTTPS?
-```
-The difference lies in the letter S which stands for Secure. Typically, an SSL certificate is needed to maintain an HTTPS secure connection and are usually required for companies accepting online payments operating in e-commerce.
-```
+
+    ```
+    The difference lies in the letter S which stands for Secure. Typically, an SSL certificate is needed to maintain an HTTPS secure connection and are usually required for companies accepting online payments operating in e-commerce.
+    ```
 2. What is the difference between HTTP GET and POST?
     ```
     HTTP GET requests data from a server. HTTP POST submits data to the server.
