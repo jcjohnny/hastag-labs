@@ -7,13 +7,12 @@ Please complete the following questions / exercises. Some of the points are inte
 
 1. What is the difference between HTTP and HTTPS?
 
-    ```The difference lies in the letter S which stands for Secure. Typically, an SSL certificate is needed to maintain an HTTPS secure connection and are usually required for companies accepting online payments operating in e-commerce.```
+    ``` The difference lies in the letter S which stands for Secure. Typically, an SSL certificate is needed to maintain an HTTPS secure connection and are usually required for companies accepting online payments operating in e-commerce.```
 2. What is the difference between HTTP GET and POST?
-    ```HTTP GET requests data from a server. HTTP POST submits data to the server.```
+
+    ``` HTTP GET requests data from a server. HTTP POST submits data to the server.```
 3. What is the difference between the HTTP 2xx status codes and 4xx status codes?
-    ```
-    HTTP 2xx status means there’s a successful connection to the server. 4xx status codes means there’s a problem with the user’s connection to the server.
-    ```
+    ``` HTTP 2xx status means there’s a successful connection to the server. 4xx status codes means there’s a problem with the user’s connection to the server. ```
 4. What is Ajax (conceptually, what does it do)? Describe a situation where it is useful.
     ```
     Ajax can make changes to a web page without having to reload the page. It is typically useful when content on page is being changed or updated while the user is viewing a page. Online forms are a situation where Ajax is the most useful – as it can update and inform as a user is typing. Having to submit a form only to be told that it is filled incorrectly is slow and non user-friendly.
